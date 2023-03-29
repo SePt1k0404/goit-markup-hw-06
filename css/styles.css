@@ -774,6 +774,11 @@ body {
   color: rgba(46, 47, 66, 0.4);
 }
 
+.form-check.visually-hidden {
+  top: 480px;
+  left: 33px;
+}
+
 .form-check-desc {
   display: flex;
   align-items: center;
