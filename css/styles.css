@@ -539,7 +539,7 @@ body {
   transform: translate(-50%, -50%) scale(1);
   transition: transform var(--anim-dur-func), box-shadow var(--anim-dur-func);
 
-  display: flex;
+  /* display: flex; */
   width: 408px;
   min-height: 576px;
   padding: 24px;
@@ -557,7 +557,9 @@ body {
   justify-content: center;
   align-items: center;
 
-  margin-left: auto;
+  position: absolute;
+  top: 24px;
+  right: 24px;
   height: 24px;
   width: 24px;
   border-radius: 50%;
